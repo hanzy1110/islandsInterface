@@ -1,4 +1,4 @@
-defmodule IslandsInterfaceWeb.Router do
+defmodule IslandsInterface.Web.Router do
   use IslandsInterfaceWeb, :router
 
   pipeline :browser do
@@ -22,7 +22,7 @@ defmodule IslandsInterfaceWeb.Router do
   end
 
   # Other scopes may use custom stacks.
-  # scope "/api", IslandsInterfaceWeb do
+  # scope "/api", IslandsInterface.Web do
   #   pipe_through :api
   # end
 
